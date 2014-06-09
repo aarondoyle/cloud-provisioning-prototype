@@ -1,0 +1,42 @@
+{
+  "name": "cloud-provisioning-prototype",
+  "version": "0.0.0",
+  "description": "Prototype of cloud provisioning services using restify, mongoose, aws-sdk.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "run": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarondoyle/cloud-provisioning-prototype.git"
+  },
+  "keywords": [
+    "node",
+    "restify",
+    "mongoose",
+    "asw-sdk",
+    "cloud",
+    "provisioning",
+    "mongo"
+  ],
+  "author": "Aaron Doyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarondoyle/cloud-provisioning-prototype/issues"
+  },
+  "homepage": "https://github.com/aarondoyle/cloud-provisioning-prototype",
+  "dependencies": {
+    "bunyan": "^0.23.1",
+    "cluster": "^0.7.7",
+    "mongoose": "^3.8.12",
+    "rekuire": "^0.1.5",
+    "restify": "^2.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  }
+}
